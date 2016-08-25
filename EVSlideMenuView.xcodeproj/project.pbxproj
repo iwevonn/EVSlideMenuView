@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA45342D1D621EF90065EA4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA45342C1D621EF90065EA4E /* main.m */; };
+		AA4534301D621EF90065EA4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA45342F1D621EF90065EA4E /* AppDelegate.m */; };
+		AA4534361D621EF90065EA4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4534341D621EF90065EA4E /* Main.storyboard */; };
+		AA4534381D621EF90065EA4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4534371D621EF90065EA4E /* Assets.xcassets */; };
+		AA45343B1D621EF90065EA4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4534391D621EF90065EA4E /* LaunchScreen.storyboard */; };
+		AA63F60E1D6E952800C79839 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA63F5FC1D6E952800C79839 /* ViewController.m */; };
+		AA63F60F1D6E952800C79839 /* EVCustomItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AA63F6001D6E952800C79839 /* EVCustomItem.m */; };
+		AA63F6101D6E952800C79839 /* EVSlideMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA63F6021D6E952800C79839 /* EVSlideMenuView.m */; };
+		AA63F6111D6E952800C79839 /* EVTableViewWithBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = AA63F6051D6E952800C79839 /* EVTableViewWithBlock.m */; };
+		AA63F6121D6E952800C79839 /* UITableView+DataSourceBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = AA63F6071D6E952800C79839 /* UITableView+DataSourceBlocks.m */; };
+		AA63F6131D6E952800C79839 /* UITableView+DelegateBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = AA63F6091D6E952800C79839 /* UITableView+DelegateBlocks.m */; };
+		AA63F6141D6E952800C79839 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA63F60C1D6E952800C79839 /* CustomTableViewCell.m */; };
+		AA63F6151D6E952800C79839 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA63F60D1D6E952800C79839 /* CustomTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA4534281D621EF90065EA4E /* EVSlideMenuView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EVSlideMenuView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA45342C1D621EF90065EA4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA45342E1D621EF90065EA4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA45342F1D621EF90065EA4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA4534351D621EF90065EA4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA4534371D621EF90065EA4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA45343A1D621EF90065EA4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA45343C1D621EF90065EA4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA63F5FB1D6E952800C79839 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Controller/ViewController.h; sourceTree = "<group>"; };
+		AA63F5FC1D6E952800C79839 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Controller/ViewController.m; sourceTree = "<group>"; };
+		AA63F5FF1D6E952800C79839 /* EVCustomItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVCustomItem.h; sourceTree = "<group>"; };
+		AA63F6001D6E952800C79839 /* EVCustomItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVCustomItem.m; sourceTree = "<group>"; };
+		AA63F6011D6E952800C79839 /* EVSlideMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVSlideMenuView.h; sourceTree = "<group>"; };
+		AA63F6021D6E952800C79839 /* EVSlideMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVSlideMenuView.m; sourceTree = "<group>"; };
+		AA63F6041D6E952800C79839 /* EVTableViewWithBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVTableViewWithBlock.h; sourceTree = "<group>"; };
+		AA63F6051D6E952800C79839 /* EVTableViewWithBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVTableViewWithBlock.m; sourceTree = "<group>"; };
+		AA63F6061D6E952800C79839 /* UITableView+DataSourceBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+DataSourceBlocks.h"; sourceTree = "<group>"; };
+		AA63F6071D6E952800C79839 /* UITableView+DataSourceBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DataSourceBlocks.m"; sourceTree = "<group>"; };
+		AA63F6081D6E952800C79839 /* UITableView+DelegateBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+DelegateBlocks.h"; sourceTree = "<group>"; };
+		AA63F6091D6E952800C79839 /* UITableView+DelegateBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DelegateBlocks.m"; sourceTree = "<group>"; };
+		AA63F60B1D6E952800C79839 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		AA63F60C1D6E952800C79839 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		AA63F60D1D6E952800C79839 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA4534251D621EF90065EA4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA45341F1D621EF90065EA4E = {
+			isa = PBXGroup;
+			children = (
+				AA45342A1D621EF90065EA4E /* EVSlideMenuView */,
+				AA4534291D621EF90065EA4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA4534291D621EF90065EA4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA4534281D621EF90065EA4E /* EVSlideMenuView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA45342A1D621EF90065EA4E /* EVSlideMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				AA45342E1D621EF90065EA4E /* AppDelegate.h */,
+				AA45342F1D621EF90065EA4E /* AppDelegate.m */,
+				AA63F5F91D6E952800C79839 /* Classes */,
+				AA4534341D621EF90065EA4E /* Main.storyboard */,
+				AA4534371D621EF90065EA4E /* Assets.xcassets */,
+				AA4534391D621EF90065EA4E /* LaunchScreen.storyboard */,
+				AA45343C1D621EF90065EA4E /* Info.plist */,
+				AA45342B1D621EF90065EA4E /* Supporting Files */,
+			);
+			path = EVSlideMenuView;
+			sourceTree = "<group>";
+		};
+		AA45342B1D621EF90065EA4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA45342C1D621EF90065EA4E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA63F5F91D6E952800C79839 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AA63F5FA1D6E952800C79839 /* Controller */,
+				AA63F5FB1D6E952800C79839 /* ViewController.h */,
+				AA63F5FC1D6E952800C79839 /* ViewController.m */,
+				AA63F60A1D6E952800C79839 /* View */,
+				AA63F5FD1D6E952800C79839 /* Lib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AA63F5FA1D6E952800C79839 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AA63F5FD1D6E952800C79839 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				AA63F5FE1D6E952800C79839 /* EVSlideMenuView */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		AA63F5FE1D6E952800C79839 /* EVSlideMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				AA63F5FF1D6E952800C79839 /* EVCustomItem.h */,
+				AA63F6001D6E952800C79839 /* EVCustomItem.m */,
+				AA63F6011D6E952800C79839 /* EVSlideMenuView.h */,
+				AA63F6021D6E952800C79839 /* EVSlideMenuView.m */,
+				AA63F6031D6E952800C79839 /* EVTableViewWithBlock */,
+			);
+			path = EVSlideMenuView;
+			sourceTree = "<group>";
+		};
+		AA63F6031D6E952800C79839 /* EVTableViewWithBlock */ = {
+			isa = PBXGroup;
+			children = (
+				AA63F6041D6E952800C79839 /* EVTableViewWithBlock.h */,
+				AA63F6051D6E952800C79839 /* EVTableViewWithBlock.m */,
+				AA63F6061D6E952800C79839 /* UITableView+DataSourceBlocks.h */,
+				AA63F6071D6E952800C79839 /* UITableView+DataSourceBlocks.m */,
+				AA63F6081D6E952800C79839 /* UITableView+DelegateBlocks.h */,
+				AA63F6091D6E952800C79839 /* UITableView+DelegateBlocks.m */,
+			);
+			path = EVTableViewWithBlock;
+			sourceTree = "<group>";
+		};
+		AA63F60A1D6E952800C79839 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA63F60B1D6E952800C79839 /* CustomTableViewCell.h */,
+				AA63F60C1D6E952800C79839 /* CustomTableViewCell.m */,
+				AA63F60D1D6E952800C79839 /* CustomTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA4534271D621EF90065EA4E /* EVSlideMenuView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA45343F1D621EF90065EA4E /* Build configuration list for PBXNativeTarget "EVSlideMenuView" */;
+			buildPhases = (
+				AA4534241D621EF90065EA4E /* Sources */,
+				AA4534251D621EF90065EA4E /* Frameworks */,
+				AA4534261D621EF90065EA4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EVSlideMenuView;
+			productName = EVSlideMenuView;
+			productReference = AA4534281D621EF90065EA4E /* EVSlideMenuView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA4534201D621EF90065EA4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = iwevon;
+				TargetAttributes = {
+					AA4534271D621EF90065EA4E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AA4534231D621EF90065EA4E /* Build configuration list for PBXProject "EVSlideMenuView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA45341F1D621EF90065EA4E;
+			productRefGroup = AA4534291D621EF90065EA4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA4534271D621EF90065EA4E /* EVSlideMenuView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA4534261D621EF90065EA4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA45343B1D621EF90065EA4E /* LaunchScreen.storyboard in Resources */,
+				AA4534381D621EF90065EA4E /* Assets.xcassets in Resources */,
+				AA63F6151D6E952800C79839 /* CustomTableViewCell.xib in Resources */,
+				AA4534361D621EF90065EA4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA4534241D621EF90065EA4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA63F60E1D6E952800C79839 /* ViewController.m in Sources */,
+				AA4534301D621EF90065EA4E /* AppDelegate.m in Sources */,
+				AA63F6121D6E952800C79839 /* UITableView+DataSourceBlocks.m in Sources */,
+				AA63F6111D6E952800C79839 /* EVTableViewWithBlock.m in Sources */,
+				AA63F6131D6E952800C79839 /* UITableView+DelegateBlocks.m in Sources */,
+				AA63F6141D6E952800C79839 /* CustomTableViewCell.m in Sources */,
+				AA63F60F1D6E952800C79839 /* EVCustomItem.m in Sources */,
+				AA45342D1D621EF90065EA4E /* main.m in Sources */,
+				AA63F6101D6E952800C79839 /* EVSlideMenuView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA4534341D621EF90065EA4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA4534351D621EF90065EA4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA4534391D621EF90065EA4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA45343A1D621EF90065EA4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA45343D1D621EF90065EA4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA45343E1D621EF90065EA4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA4534401D621EF90065EA4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EVSlideMenuView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iwevon.EVSlideMenuView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA4534411D621EF90065EA4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EVSlideMenuView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iwevon.EVSlideMenuView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA4534231D621EF90065EA4E /* Build configuration list for PBXProject "EVSlideMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA45343D1D621EF90065EA4E /* Debug */,
+				AA45343E1D621EF90065EA4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA45343F1D621EF90065EA4E /* Build configuration list for PBXNativeTarget "EVSlideMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA4534401D621EF90065EA4E /* Debug */,
+				AA4534411D621EF90065EA4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA4534201D621EF90065EA4E /* Project object */;
+}
